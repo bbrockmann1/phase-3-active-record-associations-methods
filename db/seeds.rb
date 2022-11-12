@@ -1,3 +1,4 @@
+puts "Seeding..."
 Song.delete_all
 Genre.delete_all
 Artist.delete_all
@@ -19,3 +20,4 @@ mj.songs << thriller
 
 pop.songs << thriller
 rap.songs << hotline_bling
+puts "Completed!"
